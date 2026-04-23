@@ -33,7 +33,7 @@ intersection of **credit risk**, **recommender systems**, and **GenAI**.
 **MLOps** · MLflow · Champion-Challenger · PSI drift monitoring
 
 ### 🎤 Beyond code
-[TEDx speaker](https://www.youtube.com/watch?v=RivKU85N9gw) · Bilingual (ES/EN) · Mentored 13+ engineers
+[TEDx speaker](https://www.youtube.com/watch?v=RivKU85N9gw) · Trilingual (ES/EN/PT) · Mentored 13+ engineers
 
 ### 📬 Let's connect
 [LinkedIn](https://www.linkedin.com/in/sebastianmateusperdomo/) · 
