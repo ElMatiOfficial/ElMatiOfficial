@@ -9,7 +9,6 @@ intersection of **credit risk**, **recommender systems**, and **GenAI**.
 - 📊 Data/ML infrastructure — dbt, BigQuery, Airflow, FastAPI, MLflow
 
 ### 🚀 Currently
-- Previously built credit risk systems @ **Baubap** (LatAm fintech microloans)
 - Active in competitive ML — [Kaggle](https://www.kaggle.com/sebastianmateus): 1 Silver, top 20% in 8 challenges
 
 ### 🤖 GenAI — deeper dive
