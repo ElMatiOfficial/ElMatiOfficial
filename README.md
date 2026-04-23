@@ -37,5 +37,4 @@ intersection of **credit risk**, **recommender systems**, and **GenAI**.
 
 ### 📬 Let's connect
 [LinkedIn](https://www.linkedin.com/in/sebastianmateusperdomo/) · 
-[Kaggle](https://www.kaggle.com/sebastianmateus) · 
-juansebastianmateusp@gmail.com
+[Kaggle](https://www.kaggle.com/sebastianmateus)
