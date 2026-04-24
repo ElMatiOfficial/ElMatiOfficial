@@ -1,7 +1,7 @@
 # Hey, I'm Sebastian 👋
 
 Senior ML Engineer based in Colombia 🇨🇴. I build production ML systems at the 
-intersection of **credit risk**, **recommender systems**, and **GenAI**.
+intersection of **credit risk**, **recommender systems**, **classical ML**, **Agentic Infra** and **GenAI**.
 
 ### 🔭 What I'm working on
 - 🏦 Credit risk ML — loss rate forecasting, PD/LGD models, cohort analysis
