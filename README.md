@@ -1,40 +1,80 @@
-# Hey, I'm Sebastian 👋
+# Sebastian Mateus
 
-Senior ML Engineer based in Colombia 🇨🇴. I build production ML systems at the 
-intersection of **credit risk**, **recommender systems**, **classical ML**, **Agentic Infra** and **GenAI**.
+Senior AI/ML Engineer at **Nequi (Grupo Bancolombia)**, pre-training foundation
+models on customer transaction sequences. 8+ years shipping production ML.
+Based in Colombia 🇨🇴.
 
-### 🔭 What I'm working on
-- 🏦 Credit risk ML — loss rate forecasting, PD/LGD models, cohort analysis
-- 🤖 GenAI in production — grounded RAG, hybrid retrieval, LLM evaluation, observability, agentic workflows
-- 📊 Data/ML infrastructure — dbt, BigQuery, Airflow, FastAPI, MLflow
+I'm most interested in the gap between what a model appears to do and what it
+actually does — evaluation that survives scrutiny, agent tool-use that earns its
+place, and systems whose failure modes are written down before someone finds them.
 
-### 🚀 Currently
-- Active in competitive ML — [Kaggle](https://www.kaggle.com/sebastianmateus): 1 Silver, top 20% in 8 challenges
+**[Full portfolio & research →](https://elmatiofficial.github.io)**
 
-### 🤖 GenAI — deeper dive
-- **Retrieval** — hybrid dense + BM25 with reciprocal rank fusion, cross-encoder reranking (bge)
-- **Grounding & safety** — citation-enforcing prompts, refusal paths, hallucination reduction
-- **Evaluation** — Recall@K / MRR on retrieval, faithfulness + LLM-as-judge on generation, offline eval sets wired into CI
-- **Observability** — Langfuse traces, token-cost monitoring, embedding-drift detection
-- **Agents & tools** — structured output, multi-step orchestration, guardrailed tool use
+---
 
-### 📚 Research interests
-- **Credit-risk methodology** — IV/WoE feature assessment, Platt calibration, SHAP-driven adverse-action reasons
-- **Production RAG** — hybrid retrieval benchmarks, grounding/faithfulness metrics, cost-latency trade-offs
-- **LLM observability** — drift detection on query embeddings, telemetry-driven prompt iteration
+## Selected work
 
-### 🛠️ Tech I reach for
+**[RealH](https://github.com/ElMatiOfficial/realh)** — Proof-of-personhood and
+content provenance using W3C Verifiable Credentials. Ed25519 signing, `did:web`,
+public JWKS for offline verification. The README opens with four specific reasons
+not to trust it in production, because a reference implementation that hides its
+threat model is worse than none.
+`TypeScript` · CI · CodeQL · gitleaks · [ADR on JCS canonicalization](https://github.com/ElMatiOfficial/realh/blob/main/docs/decisions/001-jcs-canonicalization.md)
 
-**Languages** · Python · SQL  
-**ML** · scikit-learn · XGBoost · LightGBM · PyTorch · Hugging Face  
-**GenAI** · LangChain · RAG · sentence-transformers · ChromaDB · cross-encoder rerankers · Langfuse · OpenAI · Anthropic  
-**Data** · BigQuery · dbt · Airflow · Snowflake · Delta Lake  
-**Infra** · AWS · Docker · FastAPI · Terraform · GitHub Actions  
-**MLOps** · MLflow · Champion-Challenger · PSI drift monitoring
+**[Kaggle write-ups](https://github.com/ElMatiOfficial/kaggle-solutions)** — 19
+competitions, each documented as a short paper. Includes a
+**[provenance ledger](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/PROVENANCE.md)**
+that states, per competition, exactly which submissions were my own work and
+which were not — verified by diffing my final submissions against the public
+notebooks they came from. 5 of 19 were substantially original; the ledger says
+which, and names every upstream author.
 
-### 🎤 Beyond code
-[TEDx speaker](https://www.youtube.com/watch?v=RivKU85N9gw) · Trilingual (ES/EN/PT) · Mentored 13+ engineers
+**[EML translator](https://github.com/ElMatiOfficial/EML-Matemathical-Translator-for-AI)** —
+Library for translating mathematical expressions to and from Exp-Minus-Log trees
+([Odrzywołek's primitive](https://arxiv.org/abs/2603.21852)). Forward/inverse
+translation, complex-branch evaluation, exhaustive identity search.
+`Python` · 116 tests · MIT
 
-### 📬 Let's connect
-[LinkedIn](https://www.linkedin.com/in/sebastianmateusperdomo/) · 
-[Kaggle](https://www.kaggle.com/sebastianmateus)
+**[EML research POC](https://github.com/ElMatiOfficial/EML-Research-POC)** —
+Wires those operations into Claude as tool-use and benchmarks whether it helps.
+The honest answer, reported in the README: on calculus and algebra the agents
+largely ignore the EML tools in favour of sympy. It earns its keep only on
+translate/evaluate/verify tasks.
+
+**[barrio-mapper](https://github.com/ElMatiOfficial/barrio-mapper)** — Maps the
+small independently-owned businesses of a neighbourhood — tiendas, droguerías,
+ferreterías — while filtering out chains. Three-signal chain detection with an
+auditable rejection log. Tested in Medellín;
+[runs in the browser](https://elmatiofficial.github.io/barrio-mapper/).
+`Python` · tests · CLI + browser app
+
+---
+
+## What I work on
+
+**Production ML** — foundation model pre-training on transaction sequences ·
+credit risk (PD/LGD, loss-rate forecasting, IV/WoE, Platt calibration,
+SHAP-driven adverse-action reasons) · recommender systems
+
+**Agentic systems** — tool-use design and evaluation · structured output ·
+multi-step orchestration · guardrailed tool access · agent security
+(multi-step tool attacks)
+
+**Evaluation & observability** — offline eval sets wired into CI ·
+faithfulness and LLM-as-judge · embedding drift detection · PSI monitoring ·
+Langfuse tracing
+
+**Stack** — Python · SQL · PyTorch · scikit-learn · XGBoost · LightGBM ·
+Hugging Face · BigQuery · dbt · Airflow · FastAPI · MLflow · AWS · Docker ·
+Terraform · GitHub Actions
+
+---
+
+## Elsewhere
+
+[Portfolio](https://elmatiofficial.github.io) ·
+[LinkedIn](https://www.linkedin.com/in/sebastianmateusperdomo/) ·
+[Kaggle](https://www.kaggle.com/sebastianmateus) ·
+[TEDx talk](https://www.youtube.com/watch?v=RivKU85N9gw)
+
+Trilingual (ES/EN/PT) · Mentored 13+ engineers
