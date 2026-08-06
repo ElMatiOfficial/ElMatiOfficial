@@ -29,7 +29,7 @@ which were not — verified by diffing my final submissions against the public
 notebooks they came from. 5 of 19 were substantially original; the ledger says
 which, and names every upstream author.
 
-**[EML translator](https://github.com/ElMatiOfficial/EML-Matemathical-Translator-for-AI)** —
+**[EML translator](https://github.com/ElMatiOfficial/EML-Mathematical-Translator-for-AI)** —
 Library for translating mathematical expressions to and from Exp-Minus-Log trees
 ([Odrzywołek's primitive](https://arxiv.org/abs/2603.21852)). Forward/inverse
 translation, complex-branch evaluation, exhaustive identity search.
