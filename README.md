@@ -32,14 +32,12 @@ which, and names every upstream author.
 **[EML translator](https://github.com/ElMatiOfficial/EML-Mathematical-Translator-for-AI)** —
 Library for translating mathematical expressions to and from Exp-Minus-Log trees
 ([Odrzywołek's primitive](https://arxiv.org/abs/2603.21852)). Forward/inverse
-translation, complex-branch evaluation, exhaustive identity search.
+translation, complex-branch evaluation, exhaustive identity search. I then wired
+it into Claude as tool-use to test whether it makes an agent better at maths, and
+the README reports the mostly-negative answer: on calculus and algebra the agents
+route around EML to sympy, and it earns its keep only on translate/evaluate/verify
+tasks.
 `Python` · 116 tests · MIT
-
-**[EML research POC](https://github.com/ElMatiOfficial/EML-Research-POC)** —
-Wires those operations into Claude as tool-use and benchmarks whether it helps.
-The honest answer, reported in the README: on calculus and algebra the agents
-largely ignore the EML tools in favour of sympy. It earns its keep only on
-translate/evaluate/verify tasks.
 
 **[barrio-mapper](https://github.com/ElMatiOfficial/barrio-mapper)** — Maps the
 small independently-owned businesses of a neighbourhood — tiendas, droguerías,
