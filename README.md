@@ -2,9 +2,9 @@
 
 # Sebastian Mateus
 
-**Senior AI/ML Engineer · Nequi (Grupo Bancolombia) · Colombia**
+**GenAI Forward Deployed Engineer · Google Cloud · Colombia**
 
-Pre-training foundation models on customer transaction sequences.<br>
+Embedded with enterprise customers, taking agentic systems from prototype to production.<br>
 8+ years shipping production ML. ES / EN / PT.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-elmatiofficial.github.io-0F766E?style=flat-square&logo=githubpages&logoColor=white)](https://elmatiofficial.github.io)
@@ -24,7 +24,7 @@ Pre-training foundation models on customer transaction sequences.<br>
 
 Indexed by what I found, not by what I built. Every number below links to the file that would falsify it.
 
-### 01 · Five of my twenty finished Kaggle competitions are substantially my own work
+### 01 · Of the first twenty Kaggle competitions I finished, five are substantially my own work
 
 [![Provenance ledger: 20 submissions diffed](https://img.shields.io/badge/provenance%20ledger-20%20submissions%20diffed-0F766E?style=flat-square)](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/PROVENANCE.md)
 [![Substantially original: 5 of 20](https://img.shields.io/badge/substantially%20original-5%20of%2020-2EA44F?style=flat-square)](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/PROVENANCE.md)
@@ -32,14 +32,16 @@ Indexed by what I found, not by what I built. Every number below links to the fi
 [![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-6B7280?style=flat-square)](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/LICENSE)
 
 **[kaggle-solutions](https://github.com/ElMatiOfficial/kaggle-solutions)** — a short paper for each of
-the 20 competitions I have finished, and an attribution ledger that grades them. Every final
+the first 20 competitions I finished, and an attribution ledger that grades them. Every final
 submission was diffed against the public notebook it came from with `difflib.SequenceMatcher`.
 
 The measured record, published before anyone asked for it: [**6 verbatim copies at similarity 1.000,
 5 derived, 5 substantially original, 3 teammate-authored, and 1 derived solution carrying original
-analysis**](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/PROVENANCE.md). All three
-medals — one silver, two bronze — came from the copied or derived half, and the ledger names every
-upstream author. The five originals are the number I actually care about, and the most transferable
+analysis**](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/PROVENANCE.md). The three
+medals inside it — one silver, two bronze — came from the copied or derived half, and the ledger names every
+upstream author. Five competitions have finished since and are not audited yet, among them a second
+silver ([AI Agent Security](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks),
+131 of 4,186) and a third bronze. The five originals are the number I actually care about, and the most transferable
 work sits in entries that finished *lower*: [hysteresis mask fusion on
 Vesuvius](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/11-vesuvius-surface-detection.md)
 (private 0.56159 against public 0.55264), Gene Ontology DAG propagation on
@@ -134,13 +136,13 @@ Seven claims made on this page, and the artefact where a stranger can falsify ea
 
 | # | Claim | Where it is checked |
 |:--|:--|:--|
-| 1 | 6 verbatim · 5 derived · 5 substantially original · 3 teammate-authored · 1 mixed, across 20 finished competitions — measured with `difflib`, not asserted | [PROVENANCE.md](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/PROVENANCE.md) |
+| 1 | 6 verbatim · 5 derived · 5 substantially original · 3 teammate-authored · 1 mixed, across the first 20 finished competitions — measured with `difflib`, not asserted | [PROVENANCE.md](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/PROVENANCE.md) |
 | 2 | My own Vesuvius method generalised: private **0.56159** beat public **0.55264** | [Vesuvius write-up](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/11-vesuvius-surface-detection.md) |
 | 3 | corr(public, private) = **−0.037** across 35 scored draws of one solution — public-leaderboard tuning measured as noise | [ROGII write-up](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/20-rogii-wellbore-geology.md) · [published on Kaggle](https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction/writeups/608th-place-35-submissions-of-one-solution-corr) |
 | 4 | A design decision written down with its trade-offs instead of buried in a commit message | [ADR 001, JCS canonicalisation](https://github.com/ElMatiOfficial/realh/blob/main/docs/decisions/001-jcs-canonicalization.md) |
 | 5 | 116 tests, green across Python 3.9–3.13 and on Linux, macOS and Windows | [EML CI runs](https://github.com/ElMatiOfficial/EML-Mathematical-Translator-for-AI/actions/workflows/ci.yml) |
 | 6 | A negative result published in the project's own README, above the install instructions | [What happened when I actually tested it](https://github.com/ElMatiOfficial/EML-Mathematical-Translator-for-AI#what-happened-when-i-actually-tested-that) |
-| 7 | Kaggle Competitions Expert, ranked 1,095 of 210,960 | [kaggle.com/sebastianmateus](https://www.kaggle.com/sebastianmateus) |
+| 7 | Kaggle Competitions Expert, ranked 917 of 224,244, with two silver and three bronze medals | [kaggle.com/sebastianmateus](https://www.kaggle.com/sebastianmateus) |
 
 ---
 
@@ -148,7 +150,8 @@ Seven claims made on this page, and the artefact where a stranger can falsify ea
 
 | Area | In practice |
 |:--|:--|
-| **Foundation models** | Pre-training on customer transaction sequences at Nequi — sequence modelling of financial behaviour, and what the learned representations actually encode |
+| **Agentic systems in production** | GenAI Forward Deployed Engineer at Google Cloud — embedded with enterprise customers to take agentic systems from prototype to production: integration, data readiness, state management, evaluation |
+| **Foundation models** | Pre-trained on customer transaction sequences at Nequi (2025–26) — sequence modelling of financial behaviour, and what the learned representations actually encode |
 | **Credit risk** | PD and LGD · loss-rate forecasting · IV/WoE · Platt calibration · SHAP-driven adverse-action reasons |
 | **Agent security** | Multi-step tool-use attacks and defences · [tool designs measured rather than assumed](https://github.com/ElMatiOfficial/EML-Mathematical-Translator-for-AI#what-happened-when-i-actually-tested-that) |
 | **LLM evaluation** | Leaderboard variance and selection error — [one controlled measurement](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/20-rogii-wellbore-geology.md) puts corr(public, private) at −0.037 across 35 draws of a single solution |
@@ -163,7 +166,7 @@ Seven claims made on this page, and the artefact where a stranger can falsify ea
 | Where | What |
 |:--|:--|
 | **Portfolio** | [elmatiofficial.github.io](https://elmatiofficial.github.io) — hand-built, trilingual |
-| **Kaggle** | [sebastianmateus](https://www.kaggle.com/sebastianmateus) — Competitions Expert, ranked 1,095 of 210,960 · every finished competition [written up and attributed](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/PROVENANCE.md) |
+| **Kaggle** | [sebastianmateus](https://www.kaggle.com/sebastianmateus) — Competitions Expert, ranked 917 of 224,244 · the first twenty finished competitions [written up and attributed](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/PROVENANCE.md) |
 | **LinkedIn** | [sebastianmateusperdomo](https://www.linkedin.com/in/sebastianmateusperdomo/) |
 | **TEDx** | [Talk on YouTube](https://www.youtube.com/watch?v=RivKU85N9gw) |
 
@@ -171,6 +174,7 @@ Seven claims made on this page, and the artefact where a stranger can falsify ea
 
 <div align="center">
 
-Trilingual ES / EN / PT · based in Colombia · every claim on this page links to the thing that checks it.
+Trilingual ES / EN / PT · based in Colombia · every claim on this page links to the thing that checks it.<br>
+Personal projects and opinions here are my own and do not represent my employer.
 
 </div>
