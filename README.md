@@ -1,180 +1,110 @@
-<div align="center">
+# Hi, I'm Sebastian 👋
 
-# Sebastian Mateus
+📍 **Colombia** | 🤖 **GenAI Forward Deployed Engineer** | 🏅 **Kaggle Competitions Expert**
 
-**GenAI Forward Deployed Engineer · Google Cloud · Colombia**
-
-Embedded with enterprise customers, taking agentic systems from prototype to production.<br>
-8+ years shipping production ML. ES / EN / PT.
+Now at **Google**, embedded with enterprise customers to take agentic systems from prototype to production.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-elmatiofficial.github.io-0F766E?style=flat-square&logo=githubpages&logoColor=white)](https://elmatiofficial.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sebastianmateusperdomo-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sebastianmateusperdomo/)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Competitions%20Expert-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/sebastianmateus)
 [![TEDx](https://img.shields.io/badge/TEDx-Talk-E62B1E?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=RivKU85N9gw)
 
-*I work on the distance between what a system appears to do and what it actually does:*<br>
-*evaluation that survives scrutiny, agent tool-use that has to earn its place,*<br>
-*and failure modes written down before somebody else finds them.*
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![BigQuery](https://img.shields.io/badge/-BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![dbt](https://img.shields.io/badge/-dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/-Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-</div>
+## Start Here
 
----
+- 🌐 **[Portfolio](https://elmatiofficial.github.io)** - who I am and what I work on, in English, Spanish, and Portuguese
+- 🛡️ **[realh](https://github.com/ElMatiOfficial/realh)** - proof of personhood and content provenance for the deepfake era
+- 🧮 **[EML Translator](https://github.com/ElMatiOfficial/EML-Mathematical-Translator-for-AI)** - translate maths to and from Exp-Minus-Log trees, the single-operator form of elementary mathematics
+- 🗺️ **[barrio-mapper](https://github.com/ElMatiOfficial/barrio-mapper)** - map a neighbourhood's independent businesses from OpenStreetMap
+- 🏅 **[kaggle-solutions](https://github.com/ElMatiOfficial/kaggle-solutions)** - a technical write-up for each of my first 20 Kaggle competitions
 
-## Four results
+## Projects
 
-Indexed by what I found, not by what I built. Every number below links to the file that would falsify it.
+### Agents & Reasoning
 
-### 01 · Of the first twenty Kaggle competitions I finished, five are substantially my own work
+- 🧮 **[EML Translator](https://github.com/ElMatiOfficial/EML-Mathematical-Translator-for-AI)** - Python library for Exp-Minus-Log trees ([arXiv:2603.21852](https://arxiv.org/abs/2603.21852)), with 116 tests on Python 3.9 to 3.13 and a benchmark of the operations as LLM tools
+- 📐 **[calculemus](https://github.com/ElMatiOfficial/calculemus)** - an AI proof pipeline whose only judge is the Lean compiler
 
-[![Provenance ledger: 20 submissions diffed](https://img.shields.io/badge/provenance%20ledger-20%20submissions%20diffed-0F766E?style=flat-square)](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/PROVENANCE.md)
-[![Substantially original: 5 of 20](https://img.shields.io/badge/substantially%20original-5%20of%2020-2EA44F?style=flat-square)](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/PROVENANCE.md)
-[![Verbatim copies: 6 of 20](https://img.shields.io/badge/verbatim%20copies-6%20of%2020-B45309?style=flat-square)](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/PROVENANCE.md)
-[![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-6B7280?style=flat-square)](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/LICENSE)
+### Trust & Provenance
 
-**[kaggle-solutions](https://github.com/ElMatiOfficial/kaggle-solutions)** — a short paper for each of
-the first 20 competitions I finished, and an attribution ledger that grades them. Every final
-submission was diffed against the public notebook it came from with `difflib.SequenceMatcher`.
+- 🛡️ **[realh](https://github.com/ElMatiOfficial/realh)** - single-use codes that prove a verified person is on the call, built on W3C Verifiable Credentials signed with Ed25519 and checkable offline through `did:web` and a public JWKS
 
-The measured record, published before anyone asked for it: [**6 verbatim copies at similarity 1.000,
-5 derived, 5 substantially original, 3 teammate-authored, and 1 derived solution carrying original
-analysis**](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/PROVENANCE.md). The three
-medals inside it — one silver, two bronze — came from the copied or derived half, and the ledger names every
-upstream author. Five competitions have finished since and are not audited yet, among them a second
-silver ([AI Agent Security](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks),
-131 of 4,186) and a third bronze. The five originals are the number I actually care about, and the most transferable
-work sits in entries that finished *lower*: [hysteresis mask fusion on
-Vesuvius](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/11-vesuvius-surface-detection.md)
-(private 0.56159 against public 0.55264), Gene Ontology DAG propagation on
-[CAFA 6](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/16-cafa-6-protein-function.md),
-400 per-task ONNX networks on
-[NeuroGolf](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/12-neurogolf-2026.md).
+### Data & Maps
+
+- 🗺️ **[barrio-mapper](https://github.com/ElMatiOfficial/barrio-mapper)** - finds the tiendas, droguerías, ferreterías, and talleres of a neighbourhood in OpenStreetMap and filters out the chains; a Python CLI plus a [version that runs in your browser](https://elmatiofficial.github.io/barrio-mapper/)
+- 🌐 **[elmatiofficial.github.io](https://github.com/ElMatiOfficial/elmatiofficial.github.io)** - my portfolio site, built by hand with no frameworks, in three languages
+
+### Competitive ML
+
+- 🏅 **[kaggle-solutions](https://github.com/ElMatiOfficial/kaggle-solutions)** - one short paper per competition: the task, the method as submitted, and what it taught me
+- 📜 **[Vesuvius Challenge](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/11-vesuvius-surface-detection.md)** - 3D hysteresis mask fusion for finding papyrus surfaces inside CT scans of carbonized scrolls
+- 🧬 **[CAFA 6](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/16-cafa-6-protein-function.md)** - Gene Ontology DAG propagation for protein function prediction
+- 🧠 **[NVIDIA Nemotron](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/18-nvidia-nemotron-reasoning.md)** - merging several LoRA adapters into one rank-32 adapter with truncated SVD
+- ⛳ **[NeuroGolf 2026](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/12-neurogolf-2026.md)** - 400 per-task ONNX networks for ARC-style image transformations
+- 🎄 **[Santa 2025](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/09-santa-2025-tree-packing.md)** - an STRtree-indexed parallel search for a tree packing problem
+- 🛢️ **[ROGII Wellbore Geology](https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction/writeups/608th-place-35-submissions-of-one-solution-corr)** - a study of public versus private leaderboard scores across 35 runs of one solution
+
+## Kaggle
+
+**Competitions Expert**, ranked **917 of 224,244**, with 2 silver and 3 bronze medals across 28 competitions.
+
+- 🥈 **[AI Agent Security: Multi-Step Tool Attacks](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks)** - 131 of 4,186
+- 🥈 **[NFL Big Data Bowl 2026](https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-prediction)** - 81 of 1,899
+- 🥉 **[Recod.ai/LUC Scientific Image Forgery](https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection)** - 128 of 1,564
+- 🥉 **[ROGII Wellbore Geology](https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction)** - 606 of 6,125
+- 🥉 **[Pokémon TCG AI Battle](https://www.kaggle.com/competitions/pokemon-tcg-ai-battle)** - 638 of 6,807
+
+### Credits
+
+Competitive ML is built on shared work. Thank you to the Kagglers and teammates whose public notebooks, ideas, and submissions these entries drew on: yunsuxiaozi, abhishekgodara, pankajiitr, boristown, tonylica, wasupandceacar, hengck23, giovannyrodrguez, vitorhugobarbedo, jazivxt, chistyakov, mattiaangeli, Innat, lvncynhu, ranjeet258, nina2025, Kh0a, Tong Hui Kang, pilkwang, Krasnov, Ayodeji, gustavomoty, juanfrojas, and brenorb.
 
 <details>
-<summary><b>How the ledger was built</b> — four steps and a stated threshold</summary>
+<summary><b>What I used, and from whom</b></summary>
 
 <br>
 
-1. Identify the submission that **actually counted** — pulled from Kaggle's internal API
-   (`team.privateLeaderboardSubmissionId`), the one scored on the private leaderboard, not the
-   best-ever and not the most recent.
-2. Retrieve its source notebook with `kaggle kernels pull`.
-3. Search for a public original by title, distinctive constants, and in-notebook credits.
-4. Reduce both notebooks to non-empty stripped code lines and diff them with
-   `difflib.SequenceMatcher`, reporting a similarity ratio plus added and removed line counts.
-
-Similarity ≥ 0.99 is classified as a verbatim copy. The ledger reports measurements, not
-impressions, and the method is written out so the numbers can be reproduced against my public
-Kaggle account.
+| Competition | What I used | From |
+|:--|:--|:--|
+| [NFL Big Data Bowl 2026](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/01-nfl-big-data-bowl-2026.md) | Solution notebook | [yunsuxiaozi](https://www.kaggle.com/yunsuxiaozi) |
+| [Recod.ai Image Forgery](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/02-recodai-scientific-image-forgery.md) | Baseline notebook and model weights | [abhishekgodara](https://www.kaggle.com/abhishekgodara), [pankajiitr](https://www.kaggle.com/pankajiitr) |
+| [ARC Prize 2025](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/03-arc-prize-2025.md) | Forked solution | [boristown (暗黑AGI)](https://www.kaggle.com/boristown) |
+| [NeurIPS Ariel 2025](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/04-neurips-ariel-data-challenge-2025.md) | Calibration constants | public notebooks from the 2024 edition |
+| [PhysioNet ECG](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/05-physionet-ecg-digitization.md) | Solution notebook | [tonylica](https://www.kaggle.com/tonylica), building on wasupandceacar and hengck23 |
+| [CSIRO Image2Biomass](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/06-csiro-image2biomass.md) | Solution notebook | [giovannyrodrguez](https://www.kaggle.com/giovannyrodrguez) |
+| [Deep Past Akkadian](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/07-deep-past-akkadian-translation.md) | Solution notebook | [vitorhugobarbedo](https://www.kaggle.com/vitorhugobarbedo) |
+| [March Mania 2025](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/08-march-mania-2025.md) | Team submission | teammate gustavomoty |
+| [Santa 2025](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/09-santa-2025-tree-packing.md) | Packing ideas | jazivxt, chistyakov |
+| [MABe Mice](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/10-mabe-mouse-behavior.md) | Solution notebook | [mattiaangeli](https://www.kaggle.com/mattiaangeli) |
+| [Vesuvius Surface](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/11-vesuvius-surface-detection.md) | Data and inference infrastructure | [Innat](https://www.kaggle.com/ipythonx) |
+| [NeuroGolf 2026](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/12-neurogolf-2026.md) | Starting networks | public baselines |
+| [Orbit Wars](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/13-orbit-wars.md) | Base agent | [lvncynhu](https://www.kaggle.com/lvncynhu), building on ranjeet258 |
+| [BirdCLEF+ 2026](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/14-birdclef-2026.md) | Solution notebook | [nina2025](https://www.kaggle.com/nina2025) |
+| [Stanford RNA 3D Part 2](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/15-stanford-rna-3d-folding-2.md) | Base pipeline | [Kh0a](https://www.kaggle.com/llkh0a) |
+| [CAFA 6](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/16-cafa-6-protein-function.md) | Base predictions | the abhishekgodara notebook lineage |
+| [CommonLit](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/17-commonlit-student-summaries.md) | Team submission | teammate juanfrojas |
+| [NVIDIA Nemotron](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/18-nvidia-nemotron-reasoning.md) | Training workflow | [Tong Hui Kang](https://www.kaggle.com/huikang) |
+| [March Mania 2026](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/19-march-mania-2026.md) | Team submission | teammate brenorb |
+| [ROGII Wellbore Geology](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/20-rogii-wellbore-geology.md) | Particle-filter pipeline | pilkwang, Krasnov, Ayodeji, and others |
 
 </details>
 
-### 02 · The maths tool I built for agents mostly does not get used
+## What I'm Doing
 
-[![CI](https://img.shields.io/github/actions/workflow/status/ElMatiOfficial/EML-Mathematical-Translator-for-AI/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/ElMatiOfficial/EML-Mathematical-Translator-for-AI/actions/workflows/ci.yml)
-[![Licence: MIT](https://img.shields.io/badge/licence-MIT-6B7280?style=flat-square)](https://github.com/ElMatiOfficial/EML-Mathematical-Translator-for-AI/blob/main/LICENSE)
-
-**[EML-Mathematical-Translator-for-AI](https://github.com/ElMatiOfficial/EML-Mathematical-Translator-for-AI)** —
-translates expressions to and from Exp-Minus-Log trees, the single binary operator
-[Odrzywołek, arXiv:2603.21852](https://arxiv.org/abs/2603.21852) showed is sufficient to express
-every elementary function. The [116-test
-suite](https://github.com/ElMatiOfficial/EML-Mathematical-Translator-for-AI/actions/workflows/ci.yml)
-runs on Python 3.9 through 3.13 on every push, with macOS and Windows spot-checks. Install from
-source — it is not on PyPI.
-
-Then I wired the operations into Claude as tool-use tools and measured whether the agent got better
-at mathematics. [It mostly did
-not](https://github.com/ElMatiOfficial/EML-Mathematical-Translator-for-AI#what-happened-when-i-actually-tested-that):
-on calculus and algebra the agent routes around EML into `sympy`, for a reason that is mechanical
-rather than mysterious — multiplication's EML tree is K=41, sine and cosine exceed K=100, π is
-K=193, so past the paper's short identities a pure-EML route is not worth taking. That result sits
-in the README *above* the install instructions. The library is an exact translator and a complexity
-metric, not a reasoning substrate, and saying so is more useful than shipping the hypothesis
-unlabelled.
-
-### 03 · If the person on the call cannot produce a fresh code, they are not who they claim to be
-
-[![CI](https://img.shields.io/github/actions/workflow/status/ElMatiOfficial/realh/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/ElMatiOfficial/realh/actions/workflows/ci.yml)
-[![CodeQL](https://img.shields.io/github/actions/workflow/status/ElMatiOfficial/realh/codeql.yml?branch=main&style=flat-square&label=CodeQL)](https://github.com/ElMatiOfficial/realh/actions/workflows/codeql.yml)
-[![Secret scan](https://img.shields.io/github/actions/workflow/status/ElMatiOfficial/realh/gitleaks.yml?branch=main&style=flat-square&label=secret%20scan)](https://github.com/ElMatiOfficial/realh/actions/workflows/gitleaks.yml)
-[![Licence: Apache 2.0](https://img.shields.io/badge/licence-Apache%202.0-6B7280?style=flat-square)](https://github.com/ElMatiOfficial/realh/blob/main/LICENSE)
-
-**[realh](https://github.com/ElMatiOfficial/realh)** — proof of personhood and content provenance,
-built for the deepfake-CEO call. A verified user mints a single-use code that expires in 120 seconds
-and passes it over any channel; anyone can check it on a public page with no account. Codes are
-stored hash-only and consumed atomically, so a replay raises a loud *already used*. Underneath:
-W3C Verifiable Credentials signed with Ed25519, a `did:web` document and a public JWKS, so a relying
-party can verify **offline, without trusting the issuer at runtime**. TypeScript, thirteen months of
-commits, with CodeQL and secret scanning on every push.
-
-The README opens with four specific reasons **not** to run it in production — a mock identity
-provider, signing keys on disk instead of a KMS, `JSON.stringify` where RFC 8785 canonical JSON
-belongs, and no revocation path — because a reference implementation that hides its threat model is
-worse than none. The third has [its own decision
-record](https://github.com/ElMatiOfficial/realh/blob/main/docs/decisions/001-jcs-canonicalization.md):
-trade-offs argued in writing rather than left in a commit message.
-
-### 04 · A chain filter you cannot argue with is a filter you have to take on faith
-
-[![CI](https://img.shields.io/github/actions/workflow/status/ElMatiOfficial/barrio-mapper/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/ElMatiOfficial/barrio-mapper/actions/workflows/ci.yml)
-[![Live demo](https://img.shields.io/badge/live%20demo-runs%20in%20your%20browser-0F766E?style=flat-square&logo=openstreetmap&logoColor=white)](https://elmatiofficial.github.io/barrio-mapper/)
-[![Licence: MIT](https://img.shields.io/badge/licence-MIT-6B7280?style=flat-square)](https://github.com/ElMatiOfficial/barrio-mapper/blob/main/LICENSE)
-
-**[barrio-mapper](https://github.com/ElMatiOfficial/barrio-mapper)** — pulls the small, independently
-owned businesses of a neighbourhood out of OpenStreetMap — tiendas, droguerías, ferreterías,
-talleres — and removes the chains with three independent signals: brand tags, a name blacklist, and
-a frequency heuristic. "Chain" is a judgement call, so every rejected POI is written to
-`rejected_chains.csv` **with the reason it was rejected**. You can audit what the filter threw away
-rather than only what it kept, and whitelist the local mini-chain it got wrong. Tested end to end on
-Medellín; a Python CLI plus [a version that runs entirely in your
-browser](https://elmatiofficial.github.io/barrio-mapper/).
+- **Shipping agentic systems** - working inside enterprise customers' environments at Google, from first prototype to production
+- **Researching** - agent security and red teaming, LLM evaluation, and mathematical reasoning
+- **Competing** - Kaggle, mostly on scientific and reasoning problems
+- **Speaking and writing** - a [TEDx talk](https://www.youtube.com/watch?v=RivKU85N9gw) on AI, and essays on [Medium](https://medium.com/@SebastianMateusP)
 
 ---
 
-## Verification index
-
-Seven claims made on this page, and the artefact where a stranger can falsify each one.
-
-| # | Claim | Where it is checked |
-|:--|:--|:--|
-| 1 | 6 verbatim · 5 derived · 5 substantially original · 3 teammate-authored · 1 mixed, across the first 20 finished competitions — measured with `difflib`, not asserted | [PROVENANCE.md](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/PROVENANCE.md) |
-| 2 | My own Vesuvius method generalised: private **0.56159** beat public **0.55264** | [Vesuvius write-up](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/11-vesuvius-surface-detection.md) |
-| 3 | corr(public, private) = **−0.037** across 35 scored draws of one solution — public-leaderboard tuning measured as noise | [ROGII write-up](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/20-rogii-wellbore-geology.md) · [published on Kaggle](https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction/writeups/608th-place-35-submissions-of-one-solution-corr) |
-| 4 | A design decision written down with its trade-offs instead of buried in a commit message | [ADR 001, JCS canonicalisation](https://github.com/ElMatiOfficial/realh/blob/main/docs/decisions/001-jcs-canonicalization.md) |
-| 5 | 116 tests, green across Python 3.9–3.13 and on Linux, macOS and Windows | [EML CI runs](https://github.com/ElMatiOfficial/EML-Mathematical-Translator-for-AI/actions/workflows/ci.yml) |
-| 6 | A negative result published in the project's own README, above the install instructions | [What happened when I actually tested it](https://github.com/ElMatiOfficial/EML-Mathematical-Translator-for-AI#what-happened-when-i-actually-tested-that) |
-| 7 | Kaggle Competitions Expert, ranked 917 of 224,244, with two silver and three bronze medals | [kaggle.com/sebastianmateus](https://www.kaggle.com/sebastianmateus) |
-
----
-
-## What I work on
-
-| Area | In practice |
-|:--|:--|
-| **Agentic systems in production** | GenAI Forward Deployed Engineer at Google Cloud — embedded with enterprise customers to take agentic systems from prototype to production: integration, data readiness, state management, evaluation |
-| **Foundation models** | Pre-trained on customer transaction sequences at Nequi (2025–26) — sequence modelling of financial behaviour, and what the learned representations actually encode |
-| **Credit risk** | PD and LGD · loss-rate forecasting · IV/WoE · Platt calibration · SHAP-driven adverse-action reasons |
-| **Agent security** | Multi-step tool-use attacks and defences · [tool designs measured rather than assumed](https://github.com/ElMatiOfficial/EML-Mathematical-Translator-for-AI#what-happened-when-i-actually-tested-that) |
-| **LLM evaluation** | Leaderboard variance and selection error — [one controlled measurement](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/20-rogii-wellbore-geology.md) puts corr(public, private) at −0.037 across 35 draws of a single solution |
-| **Program induction** | ARC — [ARC Prize 2025 write-up](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/03-arc-prize-2025.md) |
-| **3D segmentation** | [Vesuvius Challenge](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/writeups/11-vesuvius-surface-detection.md) — own method, hysteresis mask fusion |
-| **Stack** | Python · SQL · PyTorch · scikit-learn · XGBoost · LightGBM · Hugging Face · BigQuery · dbt · Airflow · FastAPI · MLflow · AWS · Docker · Terraform · GitHub Actions |
-
----
-
-## Elsewhere
-
-| Where | What |
-|:--|:--|
-| **Portfolio** | [elmatiofficial.github.io](https://elmatiofficial.github.io) — hand-built, trilingual |
-| **Kaggle** | [sebastianmateus](https://www.kaggle.com/sebastianmateus) — Competitions Expert, ranked 917 of 224,244 · the first twenty finished competitions [written up and attributed](https://github.com/ElMatiOfficial/kaggle-solutions/blob/main/PROVENANCE.md) |
-| **LinkedIn** | [sebastianmateusperdomo](https://www.linkedin.com/in/sebastianmateusperdomo/) |
-| **TEDx** | [Talk on YouTube](https://www.youtube.com/watch?v=RivKU85N9gw) |
-
----
-
-<div align="center">
-
-Trilingual ES / EN / PT · based in Colombia · every claim on this page links to the thing that checks it.<br>
-Personal projects and opinions here are my own and do not represent my employer.
-
-</div>
+Trilingual ES / EN / PT · Personal projects and opinions here are my own and do not represent my employer.
